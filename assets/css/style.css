@@ -147,6 +147,23 @@ a {
     background: rgba(255, 255, 255, 0.06);
 }
 
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.nav-toggle span {
+    width: 20px;
+    height: 2px;
+    background: var(--text-primary);
+    transition: all 0.3s ease;
+}
+
 
 
 
@@ -872,6 +889,10 @@ a {
         display: none;
     }
     
+    .nav-toggle {
+        display: flex;
+    }
+    
 
     .hero-title {
         font-size: clamp(2.5rem, 10vw, 4rem);
@@ -983,6 +1004,18 @@ a {
         border-bottom: 1px solid var(--border-primary);
         padding: 1.5rem;
         gap: 0.5rem;
+    }
+    
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
     }
     
 }
