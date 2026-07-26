@@ -1028,8 +1028,13 @@ a {
     background: var(--bg-secondary);
 }
 
+.credential-image a {
+    display: block;
+}
+
 .credential-image img {
     width: 100%;
+    height: auto;
     display: block;
 }
 
