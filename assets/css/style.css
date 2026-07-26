@@ -1030,6 +1030,7 @@ a {
 
 .credential-image a {
     display: block;
+    cursor: zoom-in;
 }
 
 .credential-image img {
