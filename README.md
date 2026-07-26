@@ -108,4 +108,4 @@ Deployed at: **[wildandev.tech](https://wildandev.tech)**
 
 ---
 
-Built with ❤️ by [Wildan Al Irsyad](https://github.com/wildanuwr) under **SentinelX**
+Built with ❤️ by [Wildan Al Irsyad](https://github.com/wildanuwr) under **SentinelX** 
