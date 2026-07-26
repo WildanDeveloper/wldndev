@@ -1213,3 +1213,17 @@ a {
         justify-content: center;
     }
 }
+
+.skill-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.skill-logo {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
