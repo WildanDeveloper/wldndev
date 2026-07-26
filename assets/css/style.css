@@ -936,10 +936,6 @@ a {
         order: 2;
     }
     
-    .credentials-grid {
-        grid-template-columns: 1fr;
-    }
-    
     .skills-grid {
         grid-template-columns: 1fr;
     }
